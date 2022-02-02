@@ -1,0 +1,20 @@
+{
+  "name": "mi_proyecto",
+  "version": "0.0.1",
+  "description": "Ejemplo de proyecto con Express",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Izan Torres Barceló",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.2",
+    "express-load": "^1.1.16",
+    "mongoose": "^6.1.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
